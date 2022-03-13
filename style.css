@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+#chicken {
+    color: #929291;
+    background: #e3a84d;
+}
+
+#beef {
+    color: #dce8e9;
+    background: #c1381f;
+}
+
+#sushi {
+    color: #dce8e9;
+    background: #1fb2c1;
+}
+
+h1 {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 22px;
+    position: absolute;
+    right: 0%;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 1px solid black;
+}
+
+.p {
+    margin-top: 30px;
+    font-size: 16px;
+    padding: 10px
+}
+
+.row {
+    width: 100%;
+}
+
+
+/*Desktops*/
+
+@media(min-width: 992px) {
+    .col-md-12-title {
+        width: 100%;
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
+    .col-md-4 {
+        position: relative;
+        width: 30%;
+        float: left;
+        margin-left: 14px;
+        margin-right: 14px;
+        border: 1px solid black;
+        background-color: #5a6062;
+        color: #dce8e9;
+    }
+    .row {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+/*Tablets*/
+
+@media(min-width:768px) and (max-width:991px) {
+    .col-sm-12-title {
+        width: 100%;
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
+    .col-sm-6 {
+        position: relative;
+        width: 47.8%;
+        float: left;
+        margin: 15px;
+        border: 1px solid black;
+        background-color: #5a6062;
+        color: #dce8e9;
+    }
+    .col-sm-12 {
+        clear: left;
+        position: relative;
+        width: 96%;
+        margin-right: auto;
+        margin-left: auto;
+        border: 1px solid black;
+        background-color: #5a6062;
+        color: #dce8e9;
+    }
+}
+
+
+/*Phones*/
+
+@media(max-width: 767px) {
+    .col-xs-12-title {
+        width: 100%;
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
+    .col-xs-12 {
+        position: relative;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        border: 1px solid black;
+        margin-bottom: 20px;
+        background-color: #5a6062;
+        color: #dce8e9;
+    }
+}
